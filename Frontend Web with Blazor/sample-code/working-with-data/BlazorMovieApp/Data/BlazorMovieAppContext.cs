@@ -14,6 +14,6 @@ namespace BlazorMovieApp.Data
         {
         }
 
-        public DbSet<BlazorMovieApp.Movie> Movie { get; set; } = default!;
+        public DbSet<Movie> Movie { get; set; } = default!;
     }
 }
